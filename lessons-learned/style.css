@@ -1,0 +1,88 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display:ital,wght@1,100&family=Roboto+Mono:wght@100&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Noto Serif Display', serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+
+    * {
+        background-color: rgb(253, 251, 251);
+        font-family: 'Roboto Mono', monospace;
+        margin: 0;
+        font-size: 18px;
+        color: rgb(1, 0, 48);
+    }
+
+    #cabecalho {
+        top: 0px;
+        position: fixed;
+        display: block;
+    }
+
+    h1 {
+        position: relative;
+        background-color: rgb(180, 170, 226);
+        z-index: 3;
+    }
+
+    #minha_foto {
+        display: inline-block;
+        margin: 30px 0px 25px 5px;
+        width: 200px;
+        border-radius: 20% 40% 40% 20%;
+        transition: 1s;
+    }
+    
+    .junto {
+        display: inline-block;
+    }
+
+    table {
+        padding: 0 0 150px 0;
+    }
+
+    #minha_foto:hover {
+        border-radius: 20% 20% 20% 20%;
+    }
+
+    .lado-esquerdo {
+        border: 2px solid black;
+    }
+
+    .lado-direito {
+        border: 2px solid black;
+    }
+
+    .lado-direito, .lado-esquerdo {
+        display: inline-block;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        line-height: 30px;
+        margin: 5px 2px 5px 5px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #rodape {
+        display: block;
+        border: 2px solid black;
+        padding: 20px 0 20px 20px;
+    }
+
+    #aprendizado {
+        text-align: center;
+        padding: 200px;
+    }
+
+    #passagem {
+        text-align: center;
+        padding: 200px 200px 400px 200px;
+    }
+
+    a {
+        text-decoration: none;
+    }

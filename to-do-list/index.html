@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Minha Lista de Tarefas</h1>
+            <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        </header>
+        <div id="digite">
+            <input type="text" id="texto-tarefa" placeholder="Digite sua tarefa aqui!">
+            <button id="criar-tarefa">Adicionar</button>
+        </div>
+        <div id="tarefas">
+            <ol id="lista-tarefas"></ol>
+        </div>
+        <div id="auxilios">
+            <button id="remover-selecionado"><img
+                    src="https://imagensemoldes.com.br/wp-content/uploads/2021/02/Imagem-Letra-X-PNG.png" alt=""
+                    id="remove" width="10px"></button>
+            <button id="mover-cima"><img
+                src="https://picresize.com/images/rsz_1rsz_1png-transparent-computer-icons-up-arrow-miscellaneous-angle-triangle.png"
+                alt="" id="move-up"></button>
+        <button id="mover-baixo"><img
+                src="https://picresize.com/images/rsz_1png-transparent-computer-icons-up-arrow-miscellaneous-angle-triangle.png"
+                alt="" id="move-down"></button>
+            <button id="apaga-tudo">Esvaziar tarefas</button>
+            <button id="remover-finalizados">Remover tarefas completas</button>
+            <button id="salvar-tarefas">Salvar tarefas</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

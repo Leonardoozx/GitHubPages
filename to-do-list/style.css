@@ -1,0 +1,75 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display:ital,wght@1,100&family=Roboto+Mono:wght@100&family=ZCOOL+QingKe+HuangYou&display=swap');
+    
+    #texto-tarefa {
+        width: 150px;
+        text-align: center;
+    }
+
+    #lists {
+        display: inline-block;
+    }
+
+    #all-in-the-center {
+        text-align: center;
+    }
+
+    .completed {
+        text-decoration: line-through;
+    }
+
+    #remove {
+        width: 10px;
+    }
+
+    #move-up {
+        width: 12px;
+    }
+
+    #move-down {
+        width: 12px;
+    }
+
+/*    body {
+        margin: 0;
+        margin-left: 15px;
+        background-image: url('https://www.groovypost.com/wp-content/uploads/2021/05/notepad-onenote-featured.jpg');
+        font-family: 'Dancing Script', cursive;
+    } */
+
+    #tarefas {
+        text-decoration: none;
+        max-height: 150px;
+        background-color: rgba(253, 167, 109, 0.65);
+        max-width: 420px;
+        margin-bottom: 15px;
+        margin-top: 12px;
+        margin-left: 5px;
+        overflow: auto;
+        border-radius: 15px 15px 15px 15px;
+    }
+    
+    /* #digite {
+    } */
+
+    /* #auxilios { */
+    /* } */
+
+    #funcionamento {
+        font-family: 'Roboto Mono', monospace;  
+        transition: 0.5s;
+        color: rgb(0, 11, 77);
+        font-weight: bolder;
+    }
+
+    #funcionamento:hover {
+        color: rgb(194, 50, 45);
+    }
+
+    header h1 {
+        color: rgb(255, 0, 0);
+        transition: 0.5s;
+    }
+
+    header h1:hover {
+        color: indigo;
+    }
