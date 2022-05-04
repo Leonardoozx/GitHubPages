@@ -1,6 +1,6 @@
-##### GitHubPages
+# GitHubPages
 
-## Aqui estão todos os projetos que realizei até o momento enquanto estudo na Trybe:
+### Aqui estão todos os projetos que realizei até o momento enquanto estudo na Trybe:
 
 Píxels art: https://leonardoozx.github.io/GitHubPages/pixels-art/
 
